@@ -1,0 +1,16 @@
+Steps to setup python + VmWare sdk
+
+1. Install latest version of python
+2. Install Latest version of pip
+3. Install latest vesion of Git
+
+
+
+4. Then run following commands:
+
+	pip install --upgrade pip setuptools
+	pip install --upgrade git+https://github.com/vmware/vsphere-automation-sdk-python.git
+	
+5. download the file vCenterConnect.py and change the vCenter server address, username and password. Then run the file using following command
+
+    python vCenterConnect.py
